@@ -1,0 +1,138 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: center; /* Center contents horizontally */
+  align-items: center; /* Center contents vertically */
+  height: 120px; /* Adjust as needed */
+  width: 100%;
+  position: relative; /* Ensure it is positioned correctly */
+  z-index: 2; /* Ensure it is above the background */
+}
+
+/* Logo or name container */
+.navbar-name-container {
+  display: flex;
+  position: relative;
+  align-items: center; /* Center items vertically within the container */
+  margin-right: auto; /* Push links and menu to the right */
+}
+
+/* Name text styles */
+.name-text {
+  bottom: -1rem;
+  left: 10rem;
+  align-items: center;
+  color: white; /* Text color */
+  font-size: 2rem; /* Adjust font size as needed */
+  font-weight: 500; /* Font weight */
+  margin: -.1rem; /* Space between letters */
+}
+
+.name-text-dm {
+  margin-left: auto;
+}
+
+/* Move the "D" text */
+.name-text-d {
+  position: absolute;
+  left: 9rem; /* Adjust as needed */
+}
+
+/* Move the "M" text */
+.name-text-m {
+  position: absolute;
+  right: 6rem; /* Pushes "M" to the right */
+}
+
+/* Links box */
+.links-box {
+  right: 3rem;
+  display: flex;
+  gap: 4rem;
+  flex-direction: row; /* Stack links vertically */
+  align-items: center; /* Center align items horizontally */
+  justify-content: center;
+}
+
+.links-box a {
+  margin: 5rem 0; /* Spacing between links */
+  text-decoration: none;
+  color: white; /* Color of the links */
+  font-size: .8rem; /* Adjust font size as needed */
+  font-weight: 500; /* Adjust font weight as needed */
+  position: relative;
+}
+
+.links-box a.active::after {
+  content: ''; /* No text content */
+  position: absolute; /* Position absolutely within link */
+  left: 0; /* Align to the left */
+  bottom: 0; /* Align to the bottom */
+  width: 100%; /* Full width of the link */
+  height: 2px; /* Thickness of the underline */
+  background-color: white; /* Color of the underline */
+}
+
+/* Menu container */
+.navbar-menu-container {
+  margin-left: auto; /* Pushes the menu to the left */
+}
+
+.navbar-menu-container a {
+  text-decoration: none; /* Remove underline from the link */
+  color: white; /* Color of the link text */
+  font-size: .8rem; /* Adjust font size as needed */
+  font-weight: 500; /* Adjust font weight as needed */
+  margin-right: 1rem;
+}
+
+.links-box a, .dropdown-content a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.links-box a:hover::after, .links-box a.active::after,
+.dropdown-content a:hover::after, .dropdown-content a.active::after,
+.dropbtn a:hover::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Adjust this value to position the underline correctly */
+  width: 100%;
+  height: 2px;
+  background-color: rgb(198, 113, 33);
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+}
+
+.dropbtn {
+  font-size: .8rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  min-width: 60px;
+  z-index: 1;
+  flex-direction: column;
+  gap: -2rem;
+  padding: 0rem;
+}
+
+.dropdown-content a {
+  padding-top: 1rem;
+  margin: 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}

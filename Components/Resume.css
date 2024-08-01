@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+.resume-container {
+    background-image: url('/Users/drewmanley/Documents/Documents - Drew’s MacBook Air/Coding Projects/Portfolio/Portfolio2/portfolio2/src/ResumeBackground.jpg');
+    background-size: cover; /* Scale the image to cover the container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: auto; /* Align children to the bottom */
+}
+
+.resume-header-container {
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-header {
+    justify-content: center;
+    margin-top: 17rem;
+}
+
+.resume-header-text {
+    font-size: 10rem;
+}
+
+
+.resume-first-container {
+    background-color: black;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 920px;
+    overflow-y: auto;
+  }
+
+  .resume-text {
+    color: rgb(212, 142, 76);
+    align-items: left;
+    text-align: left;
+    margin-top: 20rem;
+    margin-left: 25rem;
+  }
+
+  .resume-sub-header {
+    font-size: .8rem;
+    margin-bottom: 10px;
+  }
+
+  .resume-sub-header-text {
+    color: white;
+    margin-top: 20px;
+    font-size: 3rem;
+  }
+
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+.resume-section {
+    display: flex;
+    width: 100%;
+}
+
+.left-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10rem;
+
+}
+
+.right-column {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20rem;
+}
+
+.right-column-2 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 24.3rem;
+}
+
+.right-column-3 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 24.3rem;
+}
+
+.right-column-4 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10.3rem;
+}
+
+.right-column-5 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 24.3rem;
+}
+
+.section-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.job-info {
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.job-info-1 {
+    font-size: 1.7rem;
+    margin-bottom: 5rem;
+    color: white;
+}
+
+.job-role {
+    font-size: 1rem;
+    margin-bottom: 25px;
+    color: rgb(212, 142, 76);
+
+}
+
+.job-description {
+    font-size: 1rem;
+    margin-top: 15px;
+    color: white;
+    margin-bottom: 2rem;
+    margin-right: 4rem;
+}
+
+.resume-link-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    border-bottom: 0.25px solid rgb(85, 85, 85);
+    border-top: 0.25px solid rgb(85, 85, 85);
+}
+
+.resume-link-text {
+    font-size: 3rem;
+}
+
+.resume-link {
+    font-size: 3rem;
+    color: rgb(212, 142, 76);
+    margin-left: .5rem;
+}

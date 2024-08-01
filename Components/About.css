@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .App {
+    min-height: 100vh;
+    width: 100vw;
+    max-width: 1900px;
+    margin: 0rem auto;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+.title-container {
+    font-family: "PT Serif", serif;
+    background-image: url('/Users/drewmanley/Documents/Documents - Drew’s MacBook Air/Coding Projects/Portfolio/Portfolio2/portfolio2/src/backgroundImage.jpg'); /* Path to your image */
+    background-size: cover; /* Scale the image to cover the container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 920px;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.home-text-container {
+    font-family: "PT Serif", serif;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+.about-container {
+    font-family: "PT Serif", serif;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #f0f0f0; /* Example background color */
+  }
+  
+  .header {
+    margin-top: 14rem;
+    font-size: 7.5rem;
+    color: white;
+  }
+  
+  .section-one-container {
+    display: flex;
+    background-color: black;
+    flex-direction: row; /* Align children in a row */
+    align-items: center; /* Center align items vertically */
+    justify-content: center; /* Center align items horizontally */
+    gap: 100px; /* Adjust the gap between the image and text as needed */
+    height: 1200px;
+  }
+  
+  .section-one-image {
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-bottom: 100px;
+    width: 500px; /* Adjust size as needed */
+    height: 800px;
+    border-radius: 0px;
+  }
+  
+  .text-container {
+    font-family: "PT Serif", serif;
+    display: flex;
+    flex-direction: column; /* Stack text elements vertically */
+    align-items: flex-start; /* Align text elements to the start */
+  }
+  
+  .sub-header {
+    font-size: 4.5rem;
+    margin-top: -7rem;
+    margin-left: 100px;
+    font-weight: 100;
+    color: white;
+  }
+  
+  .sub-header-text {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: white;
+  }
+
+  .end-section-container {
+    font-family: "PT Serif", serif;
+    text-align: left;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 270px;
+  }
+  
+  .small-header {
+    margin-left: 400px;
+    margin-bottom: 20px;
+    font-size: .7rem;
+    color: rgb(212, 142, 76);
+  }
+  
+  .conclusion {
+    margin-left: 400px;
+    font-size: 2.5rem;
+    color: white;
+  }
+
+  .personal-object-container {
+    display: flex;
+    height: 800px;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically if needed */
+    background-color: black; /* Optional: background color for the container */
+    padding: 1rem; /* Optional: padding around the container */
+    text-decoration: none;
+  }
+  
+  .personal-object-images {
+    display: flex;
+    gap: 1rem; /* Space between the images */
+  }
+  
+  .image-personal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }  
+
+  .family-image,
+  .sport-image,
+  .dog-image {
+    width: 400px; /* Set the desired width */
+    margin: 3.5rem;
+    height: 400px; /* Set the desired height */
+    object-fit: cover; /* Ensure the images cover the space without distortion */
+  }
+
+  .personal-text {
+    color: white;
+    margin-top: -2rem; /* Space between the image and the text */
+    text-align: center; /* Align text to the left */
+    width: 500px; /* Match the image width */
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 0rem;
+  }
+
+  .backstory-container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100%; /* Adjust as needed */
+    height: 700px;
+    align-items: top;
+    flex-direction: row;
+    max-width: 100%; /* Set a max width for readability */
+  }
+  
+  .backstory-header {
+    margin-top: 5rem;
+    margin-left: 15rem;
+    font-size: 3rem;
+    flex-direction: row;
+    color: white;
+  }
+
+  .backstory-text {
+    width: 800px;
+    color: white;
+    margin-left: 15rem;
+    flex-direction: row;
+    word-wrap: break-word; /* Ensure long words break and wrap */
+    word-break: break-all; /* Ensure text breaks and wraps */
+    font-size: 1rem; /* Adjust font size as needed */
+    margin-top: 6rem;
+  }

@@ -1,0 +1,185 @@
+
+
+
+.home-container {
+  font-family: "PT Serif", serif;
+  background-color: black;
+  background-image: url('/Users/drewmanley/Documents/Documents - Drew’s MacBook Air/Coding Projects/Portfolio/Portfolio2/portfolio2/src/coffeeBackground.avif'); /* Path to your image */
+  background-size: cover; /* Scale the image to cover the container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 920px;
+  font-weight: 100;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.home-text-container {
+  font-family: "PT Serif", serif;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.primary-header {
+  color: white;
+  font-size: 7rem; /* Adjust font size as needed */
+  font-weight: 100;
+  margin: 8rem;
+}
+
+.home-section-one-container {
+  display: flex;
+  background-color: black;
+  flex-direction: row; /* Align children in a row */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  gap: 100px; /* Adjust the gap between the image and text as needed */
+}
+
+.home-section-one-image {
+  margin-top: 100px;
+  margin-left: 10px;
+  margin-bottom: 100px;
+  width: 500px; /* Adjust size as needed */
+  height: 700px;
+  border-radius: 0px;
+}
+
+.home-text-sub-container {
+  justify-content: center;
+  text-align: left;
+  display: flex;
+  flex-direction: column; /* Stack text elements vertically */
+  align-items: flex-start; /* Align text elements to the start */
+}
+
+.home-sub-header {
+  font-size: 3.5rem;
+  margin-left: 100px;
+  font-weight: 100;
+  color: white;
+}
+
+.home-sub-header-text {
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 1.1rem;
+  font-weight: 100;
+  color: white;
+}
+
+.consulting-button {
+  margin-left: 6.2rem;
+  display: inline-block;
+  background-color: transparent; /* No background */
+  color: white; /* Button text color */
+  font-size: .8rem; /* Button font size */
+  font-weight: 500; /* Button font weight */
+  text-align: center; /* Center the text */
+  padding: 25px 80px; /* Padding inside the button */
+  margin-top: 40px; /* Margin above the button */
+  text-decoration: none; /* Remove underline from the text */
+  border: 1px solid rgb(212, 142, 76); /* Visible border */
+  border-radius: 0px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+/* Button hover effect */
+.consulting-button:hover {
+  background-color: rgb(212, 142, 76); /* Darker shade on hover */
+}
+
+@media (max-width: 1200px) {
+  .primary-header, .primary-header2, .primary-header3 {
+    font-size: 8rem; /* Adjust size for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .primary-header, .primary-header2, .primary-header3 {
+    font-size: 6rem; /* Further adjust size for mobile screens */
+  }
+  
+  .home-text-section {
+    top: 20%;
+  }
+
+  .home-text-section2 {
+    top: calc(20% + 8rem);
+  }
+
+  .home-text-section3 {
+    top: calc(20% + 8rem + 8rem + 2rem);
+  }
+
+  .home-text-section4 {
+    bottom: 5%;
+  }
+}
+
+.home-section-two-container {
+  display: flex;
+  background-color: black;
+  flex-direction: row-reverse; /* Align children in a row */
+  align-items: center; /* Center align items vertically */
+  justify-content: center; /* Center align items horizontally */
+  gap: 100px; /* Adjust the gap between the image and text as needed */
+}
+
+.home-section-two-image {
+  margin-top: 100px;
+  margin-right: 10px;
+  margin-bottom: 100px;
+  width: 550px; /* Adjust size as needed */
+  height: 500px;
+  border-radius: 0px;
+}
+
+.home-text-sub-container-two {
+  justify-content: center;
+  text-align: left;
+  display: flex;
+  flex-direction: column; /* Stack text elements vertically */
+  align-items: flex-start; /* Align text elements to the start */
+}
+
+.home-sub-header-two {
+  font-size: 3.5rem;
+  margin-left: 100px;
+  font-weight: 100;
+  color: white;
+}
+
+.home-sub-header-text-two {
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 1.1rem;
+  font-weight: 100;
+  color: white;
+}
+
+.coding-button {
+  margin-left: 6.2rem;
+  display: inline-block;
+  background-color: transparent; /* No background */
+  color: white; /* Button text color */
+  font-size: .8rem; /* Button font size */
+  font-weight: 500; /* Button font weight */
+  text-align: center; /* Center the text */
+  padding: 25px 80px; /* Padding inside the button */
+  margin-top: 40px; /* Margin above the button */
+  text-decoration: none; /* Remove underline from the text */
+  border: 1px solid rgb(198, 113, 33); /* Visible border */
+  border-radius: 0px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+/* Button hover effect */
+.coding-button:hover {
+  background-color: rgb(150, 85, 25); /* Darker shade on hover */
+}

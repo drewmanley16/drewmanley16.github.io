@@ -1,0 +1,78 @@
+.title-container {
+    font-family: "PT Serif", serif;
+    background-image: url('/Users/drewmanley/Documents/Documents - Drew’s MacBook Air/Coding Projects/Portfolio/Portfolio2/portfolio2/src/backgroundImage.jpg'); /* Path to your image */
+    background-size: cover; /* Scale the image to cover the container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 920px;
+    font-weight: 100;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.home-text-container {
+    font-family: "PT Serif", serif;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+.pro-container {
+    font-family: "PT Serif", serif;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #f0f0f0; /* Example background color */
+  }
+  
+  .header {
+    margin-top: 14rem;
+    font-size: 7.5rem;
+    color: white;
+  }
+  
+  .pro-one-container {
+    display: flex;
+    background-color: black;
+    flex-direction: row; /* Align children in a row */
+    align-items: center; /* Center align items vertically */
+    justify-content: center; /* Center align items horizontally */
+    gap: 100px; /* Adjust the gap between the image and text as needed */
+    height: 920px;
+  }
+  
+  .pro-one-image {
+    margin-top: -20px;
+    margin-left: -30px;
+    margin-bottom: 0px;
+    width: 500px; /* Adjust size as needed */
+    height: 500px;
+    border-radius: 0px;
+  }
+  
+  .pro-text-container {
+    font-family: "PT Serif", serif;
+    display: flex;
+    flex-direction: column; /* Stack text elements vertically */
+    align-items: flex-start; /* Align text elements to the start */
+    margin-bottom: 15rem;
+  }
+  
+  .pro-sub-header {
+    font-size: 4.5rem;
+    margin-top: -7rem;
+    margin-left: 100px;
+    font-weight: 100;
+    color: white;
+  }
+  
+  .pro-sub-header-text {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: white;
+  }
